@@ -1,0 +1,19 @@
+{
+    "name": "BlendidTest",
+    "version": "1.0.0",
+    "description": "Prueba de Blendid",
+    "main": "index.js",
+    "author": "MaxTec",
+    "license": "MIT",
+    "scripts": {
+        "start": "yarn run blendid",
+        "build": "yarn run blendid -- build"
+    },
+    "dependencies": {
+        "blendid": "^4.1.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-stylus": "^2.6.0",
+        "nib": "^1.1.2",
+        "rupture": "^0.6.2"
+    }
+}
